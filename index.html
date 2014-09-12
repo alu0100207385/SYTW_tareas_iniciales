@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Sytw tareas iniciales : Introducción al la asignatura Sistemas y Tecnologías Web (curso 14/15)">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Sytw tareas iniciales</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/alu0100207385/SYTW_tareas_iniciales">View on GitHub</a>
+
+          <h1 id="project_title">Sytw tareas iniciales</h1>
+          <h2 id="project_tagline">Introducción al la asignatura Sistemas y Tecnologías Web (curso 14/15)</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/alu0100207385/SYTW_tareas_iniciales/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/alu0100207385/SYTW_tareas_iniciales/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="sistemas-y-tecnolog%C3%ADas-web-tareas-iniciales" class="anchor" href="#sistemas-y-tecnolog%C3%ADas-web-tareas-iniciales"><span class="octicon octicon-link"></span></a>Sistemas y Tecnologías Web: Tareas iniciales</h1>
+
+<p><strong>Autor: Aarón Socas Gaspar</strong></p>
+
+<h2>
+<a name="instalaci%C3%B3n-de-rvm" class="anchor" href="#instalaci%C3%B3n-de-rvm"><span class="octicon octicon-link"></span></a>Instalación de RVM</h2>
+
+<p>En mi caso he elegido la opción de RVM, aunque ya lo tenía instalado porque lo he usado en otras asignaturas.
+Sin embargo, para instalarlo accedemos a este <a href="https://rvm.io/">enlace</a> .</p>
+
+<p>Allí seguimos las instrucciones de instalación. Es muy importante no ejecutar el comando de instalación como root o administrador:</p>
+
+<p><code>
+$\curl -sSL https://get.rvm.io | bash -s stable
+</code></p>
+
+<p>Me encontré con un problema sobre el archivo profile pero que pude resolver, a continuación se muestran las capturas de pantalla:</p>
+
+<p><img src="capturas/captura_rvm01.png" alt="Error de instalacion rvm"></p>
+
+<p>Seguimos las instrucciones, editamos nuestro bash y solucionado:</p>
+
+<p><img src="capturas/captura_rvm02.png" alt="Error solucionado"></p>
+
+<h2>
+<a name="ruby" class="anchor" href="#ruby"><span class="octicon octicon-link"></span></a>Ruby</h2>
+
+<p>Ya tengo instalado ruby en mi equipo:</p>
+
+<p><img src="capturas/ruby01.png" alt="Versión de Ruby instalada"></p>
+
+<p>Para instalarlo en Linux (Debian/Ubuntu):</p>
+
+<p><code>
+$sudo apt-get install ruby
+</code></p>
+
+<p>Existen muchas formas de instalar Ruby en nuestro ordenador, <a href="https://www.ruby-lang.org/en/installation/">aquí</a> se explican varias de ellas.</p>
+
+<h2>
+<a name="bundler" class="anchor" href="#bundler"><span class="octicon octicon-link"></span></a>bundler</h2>
+
+<p>Comprobemos que el comando <code>bundler</code> funciona, para ello debemos acceder a alguna carpeta donde tengamos gemas. En mi caso accedo a proyectos donde ya las he utilizado.
+Es importante definir correctamente la versión de ruby en nuestro <em>Gemfile</em> .</p>
+
+<p><img src="capturas/bundler03.png" alt="Prueba del comando bundler"></p>
+
+<h2>
+<a name="gemas-sinatra-twitter" class="anchor" href="#gemas-sinatra-twitter"><span class="octicon octicon-link"></span></a>Gemas: sinatra, twitter</h2>
+
+<h3>
+<a name="sinatra" class="anchor" href="#sinatra"><span class="octicon octicon-link"></span></a>sinatra</h3>
+
+<p><code>
+$sudo gem install sinatra
+</code></p>
+
+<p><img src="capturas/sinatra01.png" alt="Instalacion de la gema sinatra"></p>
+
+<h3>
+<a name="twitter" class="anchor" href="#twitter"><span class="octicon octicon-link"></span></a>twitter</h3>
+
+<p><code>
+$sudo gem install twitter
+</code></p>
+
+<p><img src="capturas/twitter01.png" alt="Instalacion de la gema sinatra"></p>
+
+<h2>
+<a name="git" class="anchor" href="#git"><span class="octicon octicon-link"></span></a>Git</h2>
+
+<p>Ya tengo instalado el git en mi equipo. Comprobamos la versión:</p>
+
+<p><img src="capturas/git01.png" alt="Versión de git instalada"></p>
+
+<p>Para instalar el git en Linux (Debian/Ubuntu): 
+<code>
+$apt-get install git
+</code> </p>
+
+<p>Podemos obtener ayuda para la instalacion <a href="https://help.github.com/articles/set-up-git">aqui</a> .</p>
+
+<h2>
+<a name="recursos" class="anchor" href="#recursos"><span class="octicon octicon-link"></span></a>Recursos</h2>
+
+<ul>
+<li><a href="http://kramdown.gettalong.org">http://kramdown.gettalong.org</a></li>
+<li><a href="http://makandracards.com/makandra/6683-markdown-kramdown-examples">http://makandracards.com/makandra/6683-markdown-kramdown-examples</a></li>
+<li><a href="https://www.ruby-lang.org/es/downloads/">https://www.ruby-lang.org/es/downloads/</a></li>
+<li><a href="https://github.com/">https://github.com/</a></li>
+</ul><p><em>Aarón Socas Gaspar - Sistemas y Tecnologías Web (Curso 2014-2015)</em></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Sytw tareas iniciales maintained by <a href="https://github.com/alu0100207385">alu0100207385</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
