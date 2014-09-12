@@ -19,7 +19,7 @@ Me encontré con un problema sobre el archivo profile pero que pude resolver, a 
 
 Seguimos las instrucciones, editamos nuestro bash y solucionado:
 
-![Error solucionado](capturas/captura_rvm01.png)
+![Error solucionado](capturas/captura_rvm02.png)
 
 
 ## Ruby
