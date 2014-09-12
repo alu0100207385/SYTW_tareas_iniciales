@@ -81,6 +81,7 @@ Podemos obtener ayuda para la instalacion [aqui](https://help.github.com/article
 - http://makandracards.com/makandra/6683-markdown-kramdown-examples
 - https://www.ruby-lang.org/es/downloads/
 - https://github.com/
+- https://guides.github.com/features/mastering-markdown/
 
 
 
